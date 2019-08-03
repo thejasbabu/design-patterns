@@ -19,7 +19,7 @@ public class Main {
                 lightTheme.display();
                 break;
             default:
-                throw new IllegalStateException("Invalid theme type, should be either Dark or Light, but given: " + themeType);
+                throw new IllegalArgumentException("Invalid theme type, should be either Dark or Light, but given: " + themeType);
         }
 
     }
